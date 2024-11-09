@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://maigai601.github.io</id>
+    <title>麦盖</title>
+    <updated>2024-11-09T04:17:41.977Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://maigai601.github.io"/>
+    <link rel="self" href="https://maigai601.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://maigai601.github.io/images/avatar.png</logo>
+    <icon>https://maigai601.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 麦盖</rights>
+    <entry>
+        <title type="html"><![CDATA[1]]></title>
+        <id>https://maigai601.github.io/post/1/</id>
+        <link href="https://maigai601.github.io/post/1/">
+        </link>
+        <updated>2024-11-03T11:48:29.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[詹小钱]]></title>
+        <id>https://maigai601.github.io/post/zhan/</id>
+        <link href="https://maigai601.github.io/post/zhan/">
+        </link>
+        <updated>2024-11-02T09:58:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://maigai601.github.io/post/hello-gridea/</id>
+        <link href="https://maigai601.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></content>
+    </entry>
+</feed>
