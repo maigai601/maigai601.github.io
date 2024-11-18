@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://maigai601.github.io</id>
+    <title>突突的笔记</title>
+    <updated>2024-11-18T11:51:33.170Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://maigai601.github.io"/>
+    <link rel="self" href="https://maigai601.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://maigai601.github.io/images/avatar.png</logo>
+    <icon>https://maigai601.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 突突的笔记</rights>
+    <entry>
+        <title type="html"><![CDATA[小程序学习三---if 和for 语句 终止关键字的学习]]></title>
+        <id>https://maigai601.github.io/post/xiao-cheng-xu-xue-xi-san/</id>
+        <link href="https://maigai601.github.io/post/xiao-cheng-xu-xue-xi-san/">
+        </link>
+        <updated>2024-11-18T03:13:14.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>代码流程控制，按什么顺序来执行代码，<mark>顺序结构（一般），分支结构（if），循环结构（for）</mark></li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>代码流程控制，按什么顺序来执行代码，<mark>顺序结构（一般），分支结构（if），循环结构（for）</mark></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于时间]]></title>
+        <id>https://maigai601.github.io/post/guan-yu-shi-jian/</id>
+        <link href="https://maigai601.github.io/post/guan-yu-shi-jian/">
+        </link>
+        <updated>2024-11-15T03:50:32.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微信小程序学习二]]></title>
+        <id>https://maigai601.github.io/post/wei-xin-xiao-cheng-xu-xue-xi-er/</id>
+        <link href="https://maigai601.github.io/post/wei-xin-xiao-cheng-xu-xue-xi-er/">
+        </link>
+        <updated>2024-11-13T08:41:46.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="变量的学习">变量的学习</h2>
+<ul>
+<li>
+<p>变量就是用于存放数据的容器，我们通过变量名获取对应的数据。变量由变量名和存储的值组成；<br>
+<img src="https://maigai601.github.io/post-images/1731488113320.png" alt="" loading="lazy"><br>
+<mark>变量可以理解为，酒店职位的定义和编号。var是人事部。如var a=9527 --酒店的人事部var ，设置了a这个职位，编号为9527</mark><br>
+var a 是声明变量。---         <mark>酒店人事部var设置a职位</mark><br>
+var a=9527 是变量赋值 ，a 的值是9527---<mark>人事部var给职位的编号</mark><br>
+var a=9527是变量的初始化，var a=9577是重新赋值， 此时，a 的值是9577,9527被覆盖 ---<mark>编号是可以重新分配的</mark><br>
+<img src="https://maigai601.github.io/post-images/1731489385239.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>变量的命名规范<br>
+名称必须以字母开头，名称可包含字母、数字、下划线和美元符号     ---首字，后字数_&amp;<br>
+名称对大小写敏感(A 和 a 是不同的变量)                                  ---大小不一<br>
+不能是关键字，保留字(比如 JavaScript 的关键词)<br>
+遵守驼峰命名法，首字母小写，后面的单词的首字母大写。如userName   ---首小，后首大</p>
+<ul>
+<li>获取用户信息和变量的结合应用<br>
+<img src="https://maigai601.github.io/post-images/1731492034989.png" alt="" loading="lazy"><br>
+Page({<br>
+范冰冰(xinxi){<br>
+console.log(&quot;输入&quot;,xinxi.detail.value)<br>
+var age=xinxi.detail.value<br>
+console.log(&quot;范冰冰的年龄是&quot;,age)<br>
+}<br>
+})</li>
+</ul>
+</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="变量的学习">变量的学习</h2>
+<ul>
+<li>
+<p>变量就是用于存放数据的容器，我们通过变量名获取对应的数据。变量由变量名和存储的值组成；<br>
+<img src="https://maigai601.github.io/post-images/1731488113320.png" alt="" loading="lazy"><br>
+<mark>变量可以理解为，酒店职位的定义和编号。var是人事部。如var a=9527 --酒店的人事部var ，设置了a这个职位，编号为9527</mark><br>
+var a 是声明变量。---         <mark>酒店人事部var设置a职位</mark><br>
+var a=9527 是变量赋值 ，a 的值是9527---<mark>人事部var给职位的编号</mark><br>
+var a=9527是变量的初始化，var a=9577是重新赋值， 此时，a 的值是9577,9527被覆盖 ---<mark>编号是可以重新分配的</mark><br>
+<img src="https://maigai601.github.io/post-images/1731489385239.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>变量的命名规范<br>
+名称必须以字母开头，名称可包含字母、数字、下划线和美元符号     ---首字，后字数_&amp;<br>
+名称对大小写敏感(A 和 a 是不同的变量)                                  ---大小不一<br>
+不能是关键字，保留字(比如 JavaScript 的关键词)<br>
+遵守驼峰命名法，首字母小写，后面的单词的首字母大写。如userName   ---首小，后首大</p>
+<ul>
+<li>获取用户信息和变量的结合应用<br>
+<img src="https://maigai601.github.io/post-images/1731492034989.png" alt="" loading="lazy"><br>
+Page({<br>
+范冰冰(xinxi){<br>
+console.log(&quot;输入&quot;,xinxi.detail.value)<br>
+var age=xinxi.detail.value<br>
+console.log(&quot;范冰冰的年龄是&quot;,age)<br>
+}<br>
+})</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[贪财好色]]></title>
+        <id>https://maigai601.github.io/post/tan-cai-hao-se/</id>
+        <link href="https://maigai601.github.io/post/tan-cai-hao-se/">
+        </link>
+        <updated>2024-11-09T09:37:15.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微信小程序的学习一]]></title>
+        <id>https://maigai601.github.io/post/xi-wu-zhi-ren/</id>
+        <link href="https://maigai601.github.io/post/xi-wu-zhi-ren/">
+        </link>
+        <updated>2024-11-09T09:36:47.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="下载和创建小程序">下载和创建小程序</h2>
+<p><a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html">小程序开发者工具下载</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="下载和创建小程序">下载和创建小程序</h2>
+<p><a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html">小程序开发者工具下载</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文人雅士]]></title>
+        <id>https://maigai601.github.io/post/wen-ren-ya-shi/</id>
+        <link href="https://maigai601.github.io/post/wen-ren-ya-shi/">
+        </link>
+        <updated>2024-11-09T09:36:06.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://maigai601.github.io/post/hello-gridea/</id>
+        <link href="https://maigai601.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></content>
+    </entry>
+</feed>
